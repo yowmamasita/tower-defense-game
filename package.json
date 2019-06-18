@@ -6,7 +6,15 @@
   "author": "Ben Sarmiento <me@bensarmiento.com>",
   "license": "UNLICENSED",
   "private": true,
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
   "dependencies": {
     "phaser": "^3.17.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
   }
 }
