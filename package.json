@@ -1,0 +1,9 @@
+{
+  "name": "td",
+  "version": "1.0.0",
+  "description": "tower defense game",
+  "main": "index.js",
+  "author": "Ben Sarmiento <me@bensarmiento.com>",
+  "license": "UNLICENSED",
+  "private": true
+}
