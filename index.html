@@ -11,16 +11,27 @@
       padding: 0;
       height: 100%;
     }
-    #content {
+    body {
+      font-family: sans-serif;
+      background: azure;
+    }
+    div#content {
+      margin-top: -36px;
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
       height: 100%;
+    }
+    div#content > canvas {
+      box-shadow: 5px 5px #888;
     }
   </style>
 </head>
 <body>
-  <div id="content"></div>
+  <div id="content">
+      <h1>tower defense game</h1>
+  </div>
   <script src="main.js"></script>
 </body>
 </html>
