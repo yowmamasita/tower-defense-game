@@ -1,19 +1,15 @@
-import Phaser from 'phaser';
+import Phaser from "phaser";
 
 export class TestScene extends Phaser.Scene {
     constructor() {
         super({
-            key: 'TestScene'
+            key: "TestScene",
         });
     }
 
-    preload() {
-        console.log('preload');
-    }
-    create() {
-        console.log('create');
-    }
-    update(time: number, delta: number) {
-        // console.log('update');
-    }
+    public preload() {}
+
+    public create() {}
+
+    public update(time: number, delta: number) {}
 }

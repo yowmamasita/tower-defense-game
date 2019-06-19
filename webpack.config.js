@@ -10,6 +10,17 @@ module.exports = {
     rules: [
       {
         test: /\.tsx?$/,
+        exclude: /node_modules/,
+        enforce: 'pre',
+        use: [{
+          loader: 'tslint-loader',
+          options: {
+            emitErrors: true
+          }
+        }]
+      },
+      {
+        test: /\.tsx?$/,
         loader: 'ts-loader',
         exclude: /node_modules/
       }

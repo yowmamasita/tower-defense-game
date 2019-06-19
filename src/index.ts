@@ -1,14 +1,14 @@
-import Phaser from 'phaser';
+import Phaser from "phaser";
 
-import {TestScene} from './scenes/test_scene';
+import {TestScene} from "./scenes/test_scene";
 
 const config: Phaser.Types.Core.GameConfig = {
     type: Phaser.AUTO,
     width: 640,
     height: 480,
-    parent: 'content',
+    parent: "content",
     resolution: 1,
-    scene: TestScene
+    scene: TestScene,
 };
 
-new Phaser.Game(config);
+const game = new Phaser.Game(config);
